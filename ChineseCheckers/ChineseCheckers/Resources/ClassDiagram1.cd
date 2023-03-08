@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ChineseCheckers.GameConroller">
+    <Position X="13.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAQAAABAgIEAAAAAAAAAAAAAAAAIAAAAAAAAgI=</HashCode>
+      <FileName>Conroller\GameConroller.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="board" />
+      <Field Name="turn" />
+      <Field Name="gameForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChineseCheckers.Board">
+    <Position X="10.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>wAQAAAAAAIQAAgAEAAAAgIAAAAQMBAAAACAAAAhEAAA=</HashCode>
+      <FileName>Model\Board.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="player1" />
+      <Field Name="player2" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChineseCheckers.Piece">
+    <Position X="8" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAIAgAAAIAAAQACAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Model\Piece.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChineseCheckers.Player">
+    <Position X="7.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAQIIAAAARAAhgECYQAAAABAAAAEAggICCAAAEAABA=</HashCode>
+      <FileName>Model\Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="board" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="pieces" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ChineseCheckers.Program">
+    <Position X="17.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChineseCheckers.GameForm">
+    <Position X="15.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAACAAABCAAAIIAAAAAAQAABAAAg=</HashCode>
+      <FileName>View\GameForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="gameConroller" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChineseCheckers.MenuForm">
+    <Position X="15.25" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgACAAAAAIIACAQAACAAAAIAAAAAAABAAAAAA=</HashCode>
+      <FileName>View\MenuForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChineseCheckers.Model.ComputerPlayer">
+    <Position X="4.5" Y="0.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="ChineseCheckers.Model.ComputerPlayer.State">
+        <TypeIdentifier>
+          <NewMemberFileName>Model\ComputerPlayer.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>GRBQQBAgJCAQAASAAggAAAAABAQCcgoBCAgABQAAQAA=</HashCode>
+      <FileName>Model\ComputerPlayer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="origins" />
+      <Field Name="destinations" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ChineseCheckers.Model.Move">
+    <Position X="10.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAIAAACAAEAAAAAAAAAAAAQAABAA=</HashCode>
+      <FileName>Model\Move.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="originPiece" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChineseCheckers.Properties.Resources">
+    <Position X="17.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAgAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChineseCheckers.Properties.Settings">
+    <Position X="17.75" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
